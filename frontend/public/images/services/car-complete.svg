@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgGrad7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="50%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white" stop-opacity="0.4"/>
+      <stop offset="100%" style="stop-color:white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bgGrad7)"/>
+  
+  <!-- Sun -->
+  <circle cx="520" cy="60" r="40" fill="#fef08a"/>
+  <circle cx="520" cy="60" r="35" fill="#fde047"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="600" height="60" fill="#475569"/>
+  <!-- Ground reflection area -->
+  <rect x="0" y="300" width="600" height="30" fill="#64748b"/>
+  
+  <!-- Car body - main shape -->
+  <path d="M100 260 L100 220 Q100 200 120 200 L180 200 L220 150 Q230 140 250 140 L400 140 Q420 140 430 150 L470 200 L520 200 Q540 200 540 220 L540 260 Z" fill="url(#carGrad)"/>
+  
+  <!-- Car roof shine -->
+  <path d="M230 145 L390 145 L420 185 L210 185 Z" fill="url(#shineGrad)"/>
+  
+  <!-- Windows -->
+  <path d="M225 155 L260 155 L260 195 L215 195 Z" fill="#38bdf8"/>
+  <path d="M270 155 L390 155 L420 195 L270 195 Z" fill="#38bdf8"/>
+  <!-- Window shine -->
+  <path d="M230 160 L250 160 L250 175 L225 175 Z" fill="white" opacity="0.3"/>
+  <path d="M280 160 L340 160 L360 175 L280 175 Z" fill="white" opacity="0.3"/>
+  
+  <!-- Door lines -->
+  <line x1="265" y1="155" x2="265" y2="255" stroke="#1e3a8a" stroke-width="2"/>
+  <line x1="380" y1="155" x2="380" y2="255" stroke="#1e3a8a" stroke-width="2"/>
+  
+  <!-- Door handles -->
+  <rect x="290" y="210" width="25" height="8" rx="2" fill="#64748b"/>
+  <rect x="410" y="210" width="25" height="8" rx="2" fill="#64748b"/>
+  
+  <!-- Headlights -->
+  <ellipse cx="115" cy="225" rx="15" ry="20" fill="#fef08a"/>
+  <ellipse cx="115" cy="225" rx="10" ry="15" fill="#fde047"/>
+  
+  <!-- Tail lights -->
+  <ellipse cx="530" cy="225" rx="12" ry="18" fill="#ef4444"/>
+  <ellipse cx="530" cy="225" rx="8" ry="12" fill="#f87171"/>
+  
+  <!-- Front bumper -->
+  <rect x="95" y="248" width="60" height="15" rx="5" fill="#1e3a8a"/>
+  <!-- Grille -->
+  <rect x="105" y="235" width="40" height="12" rx="2" fill="#0f172a"/>
+  <line x1="115" y1="237" x2="115" y2="245" stroke="#374151" stroke-width="2"/>
+  <line x1="125" y1="237" x2="125" y2="245" stroke="#374151" stroke-width="2"/>
+  <line x1="135" y1="237" x2="135" y2="245" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Rear bumper -->
+  <rect x="485" y="248" width="55" height="15" rx="5" fill="#1e3a8a"/>
+  
+  <!-- Wheels -->
+  <circle cx="180" cy="265" r="35" fill="#1e293b"/>
+  <circle cx="180" cy="265" r="28" fill="#374151"/>
+  <circle cx="180" cy="265" r="20" fill="#475569"/>
+  <circle cx="180" cy="265" r="12" fill="#64748b"/>
+  <circle cx="180" cy="265" r="5" fill="#1e293b"/>
+  <!-- Wheel spokes -->
+  <line x1="180" y1="245" x2="180" y2="285" stroke="#64748b" stroke-width="3"/>
+  <line x1="160" y1="265" x2="200" y2="265" stroke="#64748b" stroke-width="3"/>
+  
+  <circle cx="460" cy="265" r="35" fill="#1e293b"/>
+  <circle cx="460" cy="265" r="28" fill="#374151"/>
+  <circle cx="460" cy="265" r="20" fill="#475569"/>
+  <circle cx="460" cy="265" r="12" fill="#64748b"/>
+  <circle cx="460" cy="265" r="5" fill="#1e293b"/>
+  <!-- Wheel spokes -->
+  <line x1="460" y1="245" x2="460" y2="285" stroke="#64748b" stroke-width="3"/>
+  <line x1="440" y1="265" x2="480" y2="265" stroke="#64748b" stroke-width="3"/>
+  
+  <!-- Side mirrors -->
+  <rect x="195" y="185" width="15" height="20" rx="3" fill="#1e40af"/>
+  <rect x="430" y="185" width="15" height="20" rx="3" fill="#1e40af"/>
+  
+  <!-- Water drops / shine effects -->
+  <ellipse cx="150" cy="180" rx="8" ry="4" fill="white" opacity="0.5"/>
+  <ellipse cx="300" cy="160" rx="15" ry="5" fill="white" opacity="0.4"/>
+  <ellipse cx="450" cy="175" rx="10" ry="4" fill="white" opacity="0.5"/>
+  <circle cx="350" cy="200" r="3" fill="white" opacity="0.6"/>
+  <circle cx="280" cy="220" r="2" fill="white" opacity="0.6"/>
+  <circle cx="420" cy="230" r="3" fill="white" opacity="0.6"/>
+  
+  <!-- Car reflection on ground -->
+  <path d="M120 305 L160 305 L170 325 L130 325 Z" fill="#1e40af" opacity="0.3"/>
+  <path d="M440 305 L480 305 L490 325 L430 325 Z" fill="#1e40af" opacity="0.3"/>
+  <rect x="200" y="305" width="250" height="20" fill="#1e40af" opacity="0.2"/>
+  
+  <!-- Water splash effect -->
+  <ellipse cx="320" cy="295" rx="80" ry="8" fill="#38bdf8" opacity="0.4"/>
+  <ellipse cx="280" cy="290" rx="30" ry="5" fill="#38bdf8" opacity="0.3"/>
+  <ellipse cx="380" cy="288" rx="25" ry="4" fill="#38bdf8" opacity="0.3"/>
+  
+  <!-- Cleaning person with hose -->
+  <circle cx="80" cy="220" r="15" fill="#fcd34d"/>
+  <rect x="70" y="235" width="20" height="35" fill="#0284c7"/>
+  <rect x="65" y="270" width="12" height="30" fill="#1e3a8a"/>
+  <rect x="83" y="270" width="12" height="30" fill="#1e3a8a"/>
+  <!-- Hose -->
+  <path d="M90 250 Q60 240 50 260 Q40 290 60 300" stroke="#374151" stroke-width="8" fill="none"/>
+  <ellipse cx="60" cy="298" rx="8" ry="5" fill="#475569"/>
+  <!-- Water spray -->
+  <path d="M65 295 Q100 280 140 290" stroke="#38bdf8" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M65 298 Q110 290 160 295" stroke="#38bdf8" stroke-width="3" fill="none" opacity="0.5"/>
+  <circle cx="130" cy="288" r="4" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="145" cy="292" r="3" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="155" cy="295" r="2" fill="#38bdf8" opacity="0.6"/>
+  
+  <!-- Soap bubbles -->
+  <circle cx="200" cy="190" r="8" fill="white" opacity="0.6"/>
+  <circle cx="205" cy="187" r="3" fill="white" opacity="0.8"/>
+  <circle cx="350" cy="180" r="10" fill="white" opacity="0.5"/>
+  <circle cx="355" cy="176" r="4" fill="white" opacity="0.7"/>
+  <circle cx="480" cy="195" r="7" fill="white" opacity="0.6"/>
+  <circle cx="250" cy="175" r="6" fill="white" opacity="0.5"/>
+  <circle cx="400" cy="168" r="8" fill="white" opacity="0.5"/>
+  
+  <!-- Sparkles -->
+  <path d="M320 120 L325 110 L330 120 L325 130 Z" fill="#fef08a"/>
+  <path d="M180" y1="140" d="M180 140 L183 135 L186 140 L183 145 Z" fill="#fef08a"/>
+  <path d="M450 140 L453 135 L456 140 L453 145 Z" fill="#fef08a"/>
+  <circle cx="550" cy="180" r="4" fill="#fef08a"/>
+  <circle cx="250" cy="130" r="3" fill="#fef08a"/>
+  
+  <!-- Title Bar -->
+  <rect x="0" y="360" width="600" height="40" fill="rgba(0,0,0,0.4)"/>
+  <text x="300" y="388" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Lavage Voiture Complet</text>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f1f5f9"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="600" height="400" fill="url(#bgGrad4)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="100" cy="60" rx="40" ry="20" fill="white" opacity="0.6"/>
+  <ellipse cx="130" cy="55" rx="30" ry="18" fill="white" opacity="0.6"/>
+  <ellipse cx="500" cy="80" rx="45" ry="22" fill="white" opacity="0.5"/>
+  <ellipse cx="540" cy="75" rx="35" ry="18" fill="white" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="320" width="600" height="40" fill="#64748b"/>
+  
+  <!-- Main Building -->
+  <rect x="150" y="80" width="300" height="240" fill="url(#buildingGrad)" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Building Top -->
+  <rect x="140" y="70" width="320" height="15" fill="#475569"/>
+  
+  <!-- Windows Row 1 -->
+  <rect x="175" y="100" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="235" y="100" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="295" y="100" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="355" y="100" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  
+  <!-- Windows Row 2 -->
+  <rect x="175" y="150" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="235" y="150" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="295" y="150" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="355" y="150" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  
+  <!-- Windows Row 3 -->
+  <rect x="175" y="200" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="235" y="200" width="40" height="35" rx="2" fill="#fef08a"/>
+  <rect x="295" y="200" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="355" y="200" width="40" height="35" rx="2" fill="#fef08a"/>
+  
+  <!-- Windows Row 4 -->
+  <rect x="175" y="250" width="40" height="35" rx="2" fill="#fef08a"/>
+  <rect x="235" y="250" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  <rect x="295" y="250" width="40" height="35" rx="2" fill="#fef08a"/>
+  <rect x="355" y="250" width="40" height="35" rx="2" fill="#0ea5e9"/>
+  
+  <!-- Entrance -->
+  <rect x="265" y="280" width="70" height="40" fill="#1e293b"/>
+  <rect x="295" y="285" width="15" height="35" fill="#475569"/>
+  <rect x="275" y="295" width="8" height="25" fill="#fef08a"/>
+  
+  <!-- Balconies -->
+  <rect x="170" y="135" width="50" height="5" fill="#94a3b8"/>
+  <rect x="290" y="185" width="50" height="5" fill="#94a3b8"/>
+  <rect x="350" y="235" width="50" height="5" fill="#94a3b8"/>
+  
+  <!-- Trees -->
+  <rect x="80" y="280" width="12" height="40" fill="#78350f"/>
+  <ellipse cx="86" cy="265" rx="25" ry="30" fill="#22c55e"/>
+  <ellipse cx="80" cy="260" rx="18" ry="22" fill="#16a34a"/>
+  
+  <rect x="500" y="285" width="10" height="35" fill="#78350f"/>
+  <ellipse cx="505" cy="272" rx="22" ry="25" fill="#22c55e"/>
+  <ellipse cx="500" cy="268" rx="15" ry="18" fill="#16a34a"/>
+  
+  <!-- Cleaning Platform/Lift -->
+  <rect x="420" y="140" width="35" height="80" fill="#f97316"/>
+  <rect x="415" y="140" width="45" height="8" fill="#ea580c"/>
+  <rect x="425" y="148" width="20" height="60" fill="#fed7aa"/>
+  <!-- Worker -->
+  <circle cx="435" cy="158" r="8" fill="#fcd34d"/>
+  <rect x="430" y="166" width="10" height="20" fill="#3b82f6"/>
+  <!-- Cleaning tool -->
+  <rect x="445" y="160" width="15" height="4" fill="#64748b"/>
+  <rect x="456" y="155" width="8" height="14" fill="#94a3b8"/>
+  
+  <!-- Lift cables -->
+  <line x1="437" y1="70" x2="437" y2="140" stroke="#374151" stroke-width="3"/>
+  
+  <!-- Pressure washer on ground -->
+  <rect x="480" y="295" width="30" height="25" rx="5" fill="#0369a1"/>
+  <circle cx="495" cy="305" r="8" fill="#0ea5e9"/>
+  <rect x="505" y="298" width="20" height="6" fill="#374151"/>
+  
+  <!-- Water spray effect -->
+  <path d="M460 155 Q470 150 465 140" stroke="#38bdf8" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M462 158 Q475 155 470 145" stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="468" cy="142" r="3" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="463" cy="138" r="2" fill="#38bdf8" opacity="0.5"/>
+  
+  <!-- Sparkles -->
+  <circle cx="200" cy="120" r="4" fill="#fef08a"/>
+  <circle cx="320" cy="170" r="4" fill="#fef08a"/>
+  <circle cx="380" cy="120" r="3" fill="#fef08a"/>
+  <path d="M250 95 L253 90 L256 95 L253 100 Z" fill="#fef08a"/>
+  <path d="M410 160 L413 155 L416 160 L413 165 Z" fill="#fef08a"/>
+  
+  <!-- Title Bar -->
+  <rect x="0" y="360" width="600" height="40" fill="rgba(0,0,0,0.4)"/>
+  <text x="300" y="388" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Nettoyage Immeuble</text>
+</svg>

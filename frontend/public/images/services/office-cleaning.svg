@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#0891b2"/>
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="100%" style="stop-color:#fcd34d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bgGrad2)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="300" width="600" height="60" fill="#e2e8f0"/>
+  
+  <!-- Wall Panel -->
+  <rect x="50" y="50" width="500" height="250" rx="10" fill="#f1f5f9" opacity="0.3"/>
+  
+  <!-- Desk -->
+  <rect x="100" y="200" width="400" height="20" rx="3" fill="url(#deskGrad)"/>
+  <rect x="120" y="220" width="20" height="80" fill="#d97706"/>
+  <rect x="460" y="220" width="20" height="80" fill="#d97706"/>
+  
+  <!-- Monitor -->
+  <rect x="240" y="100" width="150" height="90" rx="5" fill="#1e293b"/>
+  <rect x="248" y="108" width="134" height="74" rx="2" fill="#0ea5e9"/>
+  <rect x="305" y="190" width="20" height="15" fill="#374151"/>
+  <rect x="285" y="200" width="60" height="8" rx="2" fill="#475569"/>
+  <!-- Screen content -->
+  <rect x="255" y="115" width="60" height="8" fill="#e0f2fe"/>
+  <rect x="255" y="130" width="80" height="6" fill="#e0f2fe"/>
+  <rect x="255" y="142" width="70" height="6" fill="#e0f2fe"/>
+  <rect x="255" y="154" width="90" height="6" fill="#e0f2fe"/>
+  <rect x="255" y="166" width="50" height="6" fill="#e0f2fe"/>
+  
+  <!-- Keyboard -->
+  <rect x="260" y="210" width="100" height="30" rx="3" fill="#374151"/>
+  <rect x="265" y="215" width="90" height="20" rx="2" fill="#4b5563"/>
+  
+  <!-- Mouse -->
+  <rect x="380" y="215" width="25" height="35" rx="10" fill="#374151"/>
+  <line x1="392" y1="220" x2="392" y2="230" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Office Chair -->
+  <ellipse cx="320" cy="310" rx="40" ry="10" fill="#1e293b"/>
+  <rect x="310" y="270" width="20" height="40" fill="#374151"/>
+  <rect x="270" y="240" width="100" height="35" rx="15" fill="#0284c7"/>
+  <rect x="280" y="180" width="80" height="65" rx="10" fill="#0284c7"/>
+  <rect x="290" y="190" width="60" height="45" rx="5" fill="#0ea5e9"/>
+  
+  <!-- Coffee Cup -->
+  <rect x="140" y="185" width="25" height="30" rx="3" fill="white"/>
+  <ellipse cx="152" cy="185" rx="12" ry="5" fill="#f1f5f9"/>
+  <path d="M165 195 Q175 200 165 210" stroke="white" stroke-width="3" fill="none"/>
+  <!-- Steam -->
+  <path d="M145 175 Q148 165 145 155" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M155 175 Q158 165 155 155" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Pen Holder -->
+  <rect x="420" y="170" width="30" height="40" rx="3" fill="#64748b"/>
+  <rect x="425" y="150" width="4" height="30" fill="#eab308"/>
+  <rect x="433" y="155" width="4" height="25" fill="#3b82f6"/>
+  <rect x="441" y="152" width="4" height="28" fill="#ef4444"/>
+  
+  <!-- Document -->
+  <rect x="460" y="175" width="35" height="45" fill="white"/>
+  <rect x="465" y="185" width="25" height="3" fill="#94a3b8"/>
+  <rect x="465" y="192" width="20" height="3" fill="#94a3b8"/>
+  <rect x="465" y="199" width="25" height="3" fill="#94a3b8"/>
+  <rect x="465" y="206" width="15" height="3" fill="#94a3b8"/>
+  
+  <!-- Cleaning Cloth -->
+  <path d="M130 230 Q140 225 150 230 Q145 245 135 240 Z" fill="#22c55e"/>
+  
+  <!-- Spray Bottle -->
+  <rect x="170" y="175" width="20" height="35" rx="4" fill="#06b6d4"/>
+  <rect x="173" y="165" width="14" height="12" fill="#0891b2"/>
+  <rect x="187" y="170" width="12" height="6" rx="2" fill="#0e7490"/>
+  
+  <!-- Sparkles -->
+  <circle cx="200" cy="140" r="4" fill="#fef08a"/>
+  <circle cx="450" cy="120" r="3" fill="#fef08a"/>
+  <circle cx="520" cy="180" r="4" fill="#fef08a"/>
+  <circle cx="100" cy="100" r="3" fill="#fef08a"/>
+  <path d="M530 100 L535 90 L540 100 L535 110 Z" fill="#fef08a"/>
+  <path d="M80 150 L83 145 L86 150 L83 155 Z" fill="#fef08a"/>
+  
+  <!-- Title Bar -->
+  <rect x="0" y="360" width="600" height="40" fill="rgba(0,0,0,0.4)"/>
+  <text x="300" y="388" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Nettoyage Bureau</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0FFFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7BC67B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" floodOpacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="400" height="200" fill="url(#skyGradient)"/>
+  
+  <!-- Grass -->
+  <rect y="200" width="400" height="100" fill="url(#grassGradient)"/>
+  
+  <!-- House -->
+  <rect x="80" y="100" width="240" height="150" fill="#D4916D" stroke="#8B5A3C" stroke-width="3" filter="url(#shadow)"/>
+  
+  <!-- Roof -->
+  <polygon points="80,100 200,30 320,100" fill="#A0522D" stroke="#8B3A1A" stroke-width="3"/>
+  
+  <!-- Door -->
+  <rect x="170" y="180" width="60" height="80" fill="#654321" stroke="#3E2723" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="225" cy="220" r="5" fill="#FFD700"/>
+  
+  <!-- Door frame highlight -->
+  <rect x="172" y="182" width="56" height="76" fill="none" stroke="#8B6F47" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Windows -->
+  <g filter="url(#shadow)">
+    <rect x="110" y="130" width="50" height="50" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+    <line x1="135" y1="130" x2="135" y2="180" stroke="#4682B4" stroke-width="1.5"/>
+    <line x1="110" y1="155" x2="160" y2="155" stroke="#4682B4" stroke-width="1.5"/>
+    
+    <rect x="240" y="130" width="50" height="50" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+    <line x1="265" y1="130" x2="265" y2="180" stroke="#4682B4" stroke-width="1.5"/>
+    <line x1="240" y1="155" x2="290" y2="155" stroke="#4682B4" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Chimney -->
+  <rect x="280" y="50" width="25" height="60" fill="#8B4513" stroke="#5C2E0F" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Cleaning elements -->
+  <!-- Cleaning person -->
+  <g filter="url(#shadow)">
+    <!-- Head -->
+    <circle cx="50" cy="160" r="12" fill="#F4A460"/>
+    <!-- Body -->
+    <rect x="45" y="175" width="10" height="30" fill="#FF6347"/>
+    <!-- Arms -->
+    <line x1="45" y1="180" x2="20" y2="165" stroke="#F4A460" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="180" x2="80" y2="165" stroke="#F4A460" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="47" y1="205" x2="45" y2="225" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+    <line x1="53" y1="205" x2="55" y2="225" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Mop -->
+  <g transform="translate(20, 160)" filter="url(#shadow)">
+    <rect x="0" y="0" width="6" height="50" fill="#8B4513"/>
+    <circle cx="3" cy="-8" r="12" fill="#4ECDC4" opacity="0.9"/>
+  </g>
+  
+  <!-- Bucket -->
+  <g transform="translate(320, 210)" filter="url(#shadow)">
+    <ellipse cx="0" cy="0" rx="18" ry="8" fill="#FF6347"/>
+    <path d="M -18 0 L -15 25 L 15 25 L 18 0" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <ellipse cx="0" cy="25" rx="15" ry="6" fill="#B22222"/>
+  </g>
+</svg>
